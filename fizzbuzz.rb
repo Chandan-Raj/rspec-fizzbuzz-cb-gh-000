@@ -5,7 +5,7 @@ def fizzbuzz(arg)
     "Fizz"
   elsif arg%5==0
     "Buzz"
-  elsif (arg%3==0 && arg%5==0)
+  elsif ((arg%3==0) && (arg%5==0))
     "FizzBuzz"
   else
     nil
