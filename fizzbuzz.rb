@@ -3,4 +3,5 @@
 def fizzbuzz(arg)
   if(arg/3)
     return "Fizz"
+  end
 end
