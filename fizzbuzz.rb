@@ -2,12 +2,13 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(arg)
   if arg / 3
-    put "fizz"
+    return "fizz"
   elsif arg / 5
     put "buzz"
   elsif arg/3 && arg/5
     put "fizzbuzz"
   else
     return nil
-
+end
+end
   
